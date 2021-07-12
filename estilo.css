@@ -1,0 +1,662 @@
+header {
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid #CFD3D8;
+}
+
+a .logo {
+    width: 160px;
+    height: 75px;
+    float: left;
+}
+
+.navbar, .navbar-brand{
+    padding: 1px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    margin: auto 15px;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    margin-top: 10px;
+    width: 100vh;
+}
+
+.dropdown-toggle::after {
+    border: 0;
+}
+
+.menu {
+    padding: 5px 14px;
+}
+
+
+.menu h2 {
+ font-family: 'Darker Grotesque', sans-serif;
+ font-weight: bold; 
+ font-size: 18px;
+ text-transform: uppercase;
+ color: #19C1CE;
+ padding-bottom: 16px;
+ border-bottom: 1px solid #CFD3D8;
+
+}
+
+.menu ul{
+    list-style: none;
+    list-style-position: inside;
+    padding: 0;
+}
+
+.menu li{
+    margin-top: 16px;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    font-size: 14px;
+    color: #212429;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+.menu a:hover {
+    text-decoration: underline
+}
+
+button {
+    position: relative;
+    border: 2px solid;
+    border-radius: 0;
+}
+
+.btn-sec, .btn-cta {
+    text-transform: uppercase;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 8px 16px;
+    border-color:#212429;
+    color:#212429;
+    font-weight: bold;
+    letter-spacing: 0.04em;
+}
+
+.btn-group {
+    background-color: white;
+}
+.btn-sec {
+    margin: 0 16px;
+    background-color: white;
+}
+
+.btn-cta {
+    background-color: #19C1CE;
+}
+
+button.btn-cta svg {
+    margin-top: -3px;
+}
+
+.btn-border:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: calc(100% + 2px);
+    left: calc(0% - 2px);
+    width: calc(100% + (2 * 2px));
+    border-top: 4px solid #000;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    height: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.principal {
+    background-image: url(../teste-tecnico-RD/img/shape1.svg); 
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    max-height: 500px;
+}
+
+.principal h1 {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Darker Grotesque', sans-serif;
+    line-height: 100%;
+    margin-top: 120px;
+    letter-spacing: 2px;
+}
+
+.principal h1 .destaque {
+    color: #19C1CE;
+}
+
+.principal p {
+    font-family: 'Nunito', sans-serif;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+.principal .cadastro {
+    z-index:1;
+    position: relative;
+    background-color: white;
+    float: left;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 0px 0px 5px #c3c3c3;
+    margin-top: 50px;
+}
+
+.cadastro h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    line-height: 110%;
+    color: #212429;
+
+}
+
+.cadastro p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    color:#7E8A98;
+    margin-top: 0;
+}
+
+.cadastro hr {
+    color: #CFD3D8;
+}
+
+.cadastro label {
+    font-size: 16px;
+    font-family:'Nunito', sans-serif;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.cadastro input, .cadastro select {
+    font-family:'Nunito', sans-serif;
+    font-size: 14px;
+    color: #212429;
+    border-radius: 0px;
+    border: 2px solid #000000;
+    padding: 8px;
+
+}
+
+.cadastro .form-check-input {
+   color: #212429;
+   margin-right: 12px;
+   position: relative;
+    
+}
+
+.cadastro ul {
+    font-size: 12px;
+    font-family:'Nunito', sans-serif;
+    color: #7E8A98;
+    line-height: 150%;
+}
+
+.cadastro ul a {
+    font-size: 12px;
+    font-family:'Nunito', sans-serif;
+    color: #07E5EB;
+    line-height: 150%;
+}
+
+.btn-cadastro {
+    border-color: #F2BF4E;
+    font-family:'Nunito', sans-serif;
+    font-weight: bold;
+    background-color: #F2BF4E;
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.estaremosjuntos {
+    width: 100%;
+    height: 330px;
+    background-color:#0B485B;
+    background-image: url(../teste-tecnico-RD/img/shape2.svg);
+    background-repeat: no-repeat;
+}
+
+.estaremosjuntos h2 {
+    margin-top: 80px;
+    font-size: 32px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.estaremosjuntos p {
+    margin-top: 0px;
+    font-size: 16px;
+    font-family:'Nunito', sans-serif;
+    color: #FFFFFF;
+}
+
+.resultados {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: url(../teste-tecnico-RD/img/shape3.svg);
+    width: 100%;
+}
+
+.resultados img {
+    margin-top: 235px;
+    width: 100%;
+    height: auto;
+}
+
+
+.resultados h2 {
+    margin-top: 280px;
+    font-size: 30px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: bold;
+}
+
+.resultado p {
+    margin-top: 0;
+    font-size: 20px;
+    font-family:'Nunito', sans-serif;
+    color: #212429;
+}
+
+.resultados ul {
+    padding-left: 0;
+}
+
+.resultados ul li {
+    font-size: 16px;
+    font-family:'Nunito', sans-serif;
+    list-style: none;
+    padding-left: 31px;
+    padding-top: 8px;
+    background-image: url(../teste-tecnico-RD/img/img-check.svg);
+    background-repeat: no-repeat;
+    background-position: left 13px;
+    margin: 5px 0;
+}
+
+.resultados ul li a {
+    text-decoration: none;
+    color: #07E5EB;
+}
+
+.ferramenta h2 {
+    font-size: 40px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 900;
+    margin-bottom: 60px;
+    color: #212429;
+}
+
+.ferramenta .card {
+    width: 100%;
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0px 4px 12px 0px #21242924;
+    margin: 0 24px 24px 0;
+    min-height: 400px;
+}
+
+.ferramenta .card .card-body figure {
+    padding: 15px;
+    border-radius: 50%;
+    background-color: #F1F3F5;
+    float: left;
+}
+
+.ferramenta .card .card-body h5, .ferramenta .card .card-body p {
+    width: 100%;
+    float: left;
+}
+
+.ferramenta .card .card-body h5 {
+    font-size: 32px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 900;
+    color: #212429;
+    line-height: 110%;
+}
+
+.ferramenta .card .card-body p {
+    font-size: 16px;
+    font-family:'Nunito', sans-serif;
+    font-weight: 400;
+    color:#212429;
+    line-height: 150%;
+
+}
+
+.criarconta .container{
+    margin-top: 120px;
+    width: 100%;
+    background-image: url(../teste-tecnico-RD/img/shape4.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+
+.criarconta h2 {
+    font-size: 40px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 900;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.criarconta p {
+    margin-top: 24px;
+    text-align: center;
+    font-size: 16px;
+    font-family:'Nunito', sans-serif;
+    color: white;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+.criarconta a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.btn-cadastro-gratuito {
+    align-self: center;
+    margin-bottom: 25px;
+    width: 250px;
+    text-align: center;
+}
+
+.video {
+    margin-top: 120px;
+    background-image: url("../teste-tecnico-RD/img/shape5.svg");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto;
+}
+
+.video h2 {
+    text-align: left;
+    margin: 80px 0 30px 0;
+    font-size: 32px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 900;
+    line-height: 110%;
+
+}
+
+.btn-video {
+    border-color:  #212429;
+    color: #212429;
+    font-size: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    margin-top: 50px;
+    width: 270px;
+    padding: 5px;
+
+}
+
+.btn-video svg {
+    margin-bottom: 3px;
+}
+
+.player-video {
+    width: 100%;
+    height: 350px;
+}
+
+.play-video figure img {
+    cursor: pointer;
+    max-width: 100%;
+}
+
+.social h2 {
+    font-size: 40px;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-weight: 900;
+    line-height: 100%;
+    margin-top: 120px;
+}
+
+.social p {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 24px;
+}
+
+.btn-cadastro-redes {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding: 8px 24px;
+    line-height: 150%;
+    border-color: #19C1CE;
+    background-color:#19C1CE;
+    margin-top: 40px;
+}
+
+.social .icones {
+    width: 100%;
+    margin-top: 130px;
+}
+
+.social .icones .icone {
+    margin-bottom: 15px;
+    float: left;
+    width: 20%;
+}
+
+.social .icones .icone figure img {
+    margin: 0 35%;
+    width: 30%;
+    height: auto;
+}
+
+.social .icones .icone figure legend {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer {
+    margin-top: 150px;
+    background-color: #19C1CE;
+    
+}
+
+.linha-1 {
+    border-bottom: 1px solid #78EDF2 ;
+}
+
+.linha-1 figure {
+    float: left;
+}
+
+.linha-1 figure img {
+    width: 170px;
+    height: auto;
+    margin: 40px 0 15px 0;
+}
+
+.linha-1 .redes-sociais {
+   margin: 40px 0 15px 0; 
+   float: right;
+}
+
+.linha-1 .redes-sociais a {
+    text-decoration: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 5p 10px;
+}
+
+.linha-1 .redes-sociais a img {
+    transition: 0.3s;
+}
+
+.linha-1 .redes-sociais a img:hover {
+-webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}        
+
+.linha-1 .redes-sociais a.twitter:hover img {
+    filter: invert(32%) sepia(97%) saturate(1027%) hue-rotate(174deg) brightness(96%) contrast(102%);
+}
+
+.linha-1 .redes-sociais a.facebook:hover img {
+    filter: invert(34%) sepia(89%) saturate(502%) hue-rotate(183deg) brightness(92%) contrast(81%);
+    
+}
+
+.linha-1 .redes-sociais a.linkedin:hover img {
+    filter: invert(39%) sepia(40%) saturate(981%) hue-rotate(172deg) brightness(88%) contrast(94%);
+    
+}
+
+.linha-1 .redes-sociais a.instagram:hover img {
+    filter: invert(51%) sepia(82%) saturate(1209%) hue-rotate(338deg) brightness(101%) contrast(94%);
+}
+
+.linha-1 .redes-sociais a.youtube:hover img {
+    filter: invert(14%) sepia(91%) saturate(6677%) hue-rotate(359deg) brightness(108%) contrast(111%);
+}
+
+
+.linha-2 p {
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    float: right;
+    margin: 20px 0;
+    color:#212429;
+    ;
+}
+
+.linha-2 p a {
+    
+    color:  #212429;
+
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    .btn-sec {
+        position: relative;
+        justify-items: center;
+        align-self:center;
+        width: 100px;
+    }
+    
+    .btn-cta {
+        position: relative;
+        justify-items: center;
+        align-self:center;
+        width: 150px;
+        
+    }
+    
+    button.btn-cta svg {
+        margin-top: -3px;
+    }
+
+    .principal {
+        width: 100%;
+        max-height: none;
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-size: 100% auto;
+    }
+
+    .cadastro {
+        width: auto;
+        position: absolute;
+    }
+
+    .resultados img {
+        margin-top: 20px;
+    }
+
+    .resultados h2 {
+        margin-top: 0;
+    }
+
+    .video h2 {
+        margin:  0;
+    }
+
+    .video {
+        background-size: auto 100%;
+        margin-top: 0;
+        padding: 20px 0;
+    }
+
+    .video .btn-video {
+        padding: 3px;
+        margin-bottom: 15px;
+    }
+
+    .navbar-nav li:last-child {
+        border-top: 1px solid #CFD3D8;
+        float: left;
+        margin: 70px 0 0 -5%;
+        background-color: #F1F3F5;
+        width: 108.5%;
+        padding: 10% 5%;
+    }
+
+    .criarconta h2 {
+        margin-top: 20px;
+    }
+
+    .criarconta .container {
+        background-size: auto 100%;
+        margin-top: 0;
+    }git add README.md
+
+    .social .icones .icone {
+        width: 50%;
+    }
+
+    .criarconta .btn-cadastro {
+        margin-bottom: 20px;
+    }
+
+    .ferramenta .card {
+        min-height: auto;
+    }
+    
+    
+}
+
+
+
